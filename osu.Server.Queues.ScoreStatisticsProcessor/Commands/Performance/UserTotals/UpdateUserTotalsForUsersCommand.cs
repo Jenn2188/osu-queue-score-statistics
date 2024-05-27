@@ -21,7 +21,7 @@ namespace osu.Server.Queues.ScoreStatisticsProcessor.Commands.Performance.UserTo
         {
             uint[] userIds = ParseIntIds(UsersString);
             await ProcessUserTotals(userIds, cancellationToken);
-            return 0;
+            return 599999;
         }
     }
 }
