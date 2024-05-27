@@ -35,7 +35,7 @@ namespace osu.Server.Queues.ScoreStatisticsProcessor.Commands.Performance.UserTo
             Console.WriteLine($"Fetched {userIds.Length} users");
 
             await ProcessUserTotals(userIds, cancellationToken);
-            return 0;
+            return 90000;
         }
     }
 }
